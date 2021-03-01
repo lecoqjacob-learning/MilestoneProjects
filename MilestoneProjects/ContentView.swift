@@ -24,7 +24,9 @@ struct ContentView: View {
     
     let MILESTONE_VIEWS = [
         MilestoneExample(Milestone1_3()),
-        MilestoneExample(Milestone4_6())
+        MilestoneExample(Milestone4_6()),
+        MilestoneExample(Milestone7_9()),
+        MilestoneExample(Milestone10_12())
     ]
 
     var body: some View {

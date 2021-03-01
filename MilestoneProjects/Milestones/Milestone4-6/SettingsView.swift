@@ -20,7 +20,7 @@ extension AnyTransition {
 struct AnimalImage: View {
     var name: String = "panda"
 
-    var animalNames = ["panda", "bear", "zebra", "shark", "gorilla", "bear", "buffalo", "chick", "chicken", "cow", "crocodile", "duck", "dog", "elephant", "frog", "giraffe", "goat", "hippo", "horse", "monkey", "moose", "narwhal", "owl", "parrot", "pig", "penguin", "rabbit", "rhino", "sloth", "snake", "walrus", "whale"]
+    var animalNames = ["panda", "bear", "zebra", "gorilla", "bear", "buffalo", "chick", "chicken", "cow", "crocodile", "duck", "dog", "elephant", "frog", "giraffe", "goat", "hippo", "horse", "monkey", "moose", "narwhal", "owl", "parrot", "pig", "penguin", "rabbit", "rhino", "sloth", "snake", "walrus", "whale"]
 
     var body: some View {
         Image(animalNames[Int.random(in: 0..<animalNames.count)])

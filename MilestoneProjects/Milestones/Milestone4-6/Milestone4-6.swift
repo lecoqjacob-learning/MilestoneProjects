@@ -14,7 +14,6 @@ struct Milestone4_6: MilestoneView {
     var id = UUID()
     var name: String = "Milestone 4-6"
     var description: String = "Build a kids game"
-    var infoButton: AnyView? = nil
 
     /**
      Actual Game Code

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B972000525EC666100A5C343 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972000425EC666100A5C343 /* UserService.swift */; };
 		B972FF6A25E9C3FA00A5C343 /* MilestoneProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF6925E9C3FA00A5C343 /* MilestoneProjectsApp.swift */; };
 		B972FF6C25E9C3FA00A5C343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF6B25E9C3FA00A5C343 /* ContentView.swift */; };
 		B972FF6E25E9C3FC00A5C343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B972FF6D25E9C3FC00A5C343 /* Assets.xcassets */; };
@@ -21,6 +22,14 @@
 		B972FFC225EC0E0500A5C343 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFC125EC0E0500A5C343 /* Question.swift */; };
 		B972FFC825EC273100A5C343 /* Milestone7-9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFC725EC273100A5C343 /* Milestone7-9.swift */; };
 		B972FFD025EC274000A5C343 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFCF25EC274000A5C343 /* Game.swift */; };
+		B972FFD525EC39A300A5C343 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFD425EC39A200A5C343 /* Activity.swift */; };
+		B972FFDA25EC4D3700A5C343 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFD925EC4D3700A5C343 /* AddActivityView.swift */; };
+		B972FFE525EC590000A5C343 /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFE425EC590000A5C343 /* ActivityDetail.swift */; };
+		B972FFEB25EC617E00A5C343 /* Milestone10-12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */; };
+		B972FFF325EC61B100A5C343 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFF225EC61B100A5C343 /* User.swift */; };
+		B972FFF925EC65C300A5C343 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFF825EC65C300A5C343 /* URLExtension.swift */; };
+		B9EE04EB25EC6B3100D8E246 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE04EA25EC6B3100D8E246 /* UserViewModel.swift */; };
+		B9EE04F125EC7A4700D8E246 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE04F025EC7A4700D8E246 /* UserDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B972000425EC666100A5C343 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		B972FF6625E9C3FA00A5C343 /* MilestoneProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilestoneProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B972FF6925E9C3FA00A5C343 /* MilestoneProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneProjectsApp.swift; sourceTree = "<group>"; };
 		B972FF6B25E9C3FA00A5C343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +71,14 @@
 		B972FFC125EC0E0500A5C343 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		B972FFC725EC273100A5C343 /* Milestone7-9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Milestone7-9.swift"; sourceTree = "<group>"; };
 		B972FFCF25EC274000A5C343 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B972FFD425EC39A200A5C343 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		B972FFD925EC4D3700A5C343 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		B972FFE425EC590000A5C343 /* ActivityDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetail.swift; sourceTree = "<group>"; };
+		B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Milestone10-12.swift"; sourceTree = "<group>"; };
+		B972FFF225EC61B100A5C343 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B972FFF825EC65C300A5C343 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		B9EE04EA25EC6B3100D8E246 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		B9EE04F025EC7A4700D8E246 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B972000025EC664200A5C343 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B972000425EC666100A5C343 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B972000925EC678200A5C343 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B972FFF225EC61B100A5C343 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B972FF5D25E9C3FA00A5C343 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +184,7 @@
 		B972FF9C25E9E41A00A5C343 /* Milestones */ = {
 			isa = PBXGroup;
 			children = (
+				B972FFE925EC615F00A5C343 /* Milestone10-12 */,
 				B972FFC625EC271200A5C343 /* Milestone7-9 */,
 				B972FFA625EAC59900A5C343 /* Milestone4-6 */,
 				B972FF9D25E9E42000A5C343 /* Milestone1-3 */,
@@ -181,9 +216,49 @@
 		B972FFC625EC271200A5C343 /* Milestone7-9 */ = {
 			isa = PBXGroup;
 			children = (
+				B972FFD425EC39A200A5C343 /* Activity.swift */,
 				B972FFC725EC273100A5C343 /* Milestone7-9.swift */,
+				B972FFD925EC4D3700A5C343 /* AddActivityView.swift */,
+				B972FFE425EC590000A5C343 /* ActivityDetail.swift */,
 			);
 			path = "Milestone7-9";
+			sourceTree = "<group>";
+		};
+		B972FFE925EC615F00A5C343 /* Milestone10-12 */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE04EF25EC7A3B00D8E246 /* Views */,
+				B9EE04E925EC6B1B00D8E246 /* ViewModels */,
+				B972000925EC678200A5C343 /* Models */,
+				B972000025EC664200A5C343 /* Services */,
+				B972FFF725EC65A400A5C343 /* Extensions */,
+				B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */,
+			);
+			path = "Milestone10-12";
+			sourceTree = "<group>";
+		};
+		B972FFF725EC65A400A5C343 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B972FFF825EC65C300A5C343 /* URLExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B9EE04E925EC6B1B00D8E246 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE04EA25EC6B3100D8E246 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B9EE04EF25EC7A3B00D8E246 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE04F025EC7A4700D8E246 /* UserDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,15 +390,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9EE04F125EC7A4700D8E246 /* UserDetailView.swift in Sources */,
+				B972FFEB25EC617E00A5C343 /* Milestone10-12.swift in Sources */,
 				B972FFAB25EAC69200A5C343 /* BaseMilestoneView.swift in Sources */,
 				B972FFD025EC274000A5C343 /* Game.swift in Sources */,
 				B972FFC225EC0E0500A5C343 /* Question.swift in Sources */,
 				B972FFBA25EB2B6300A5C343 /* SettingsView.swift in Sources */,
 				B972FF6C25E9C3FA00A5C343 /* ContentView.swift in Sources */,
+				B972000525EC666100A5C343 /* UserService.swift in Sources */,
+				B9EE04EB25EC6B3100D8E246 /* UserViewModel.swift in Sources */,
 				B972FFB025EACA2000A5C343 /* Milestone4-6.swift in Sources */,
 				B972FF9F25E9E43400A5C343 /* Milestone1-3.swift in Sources */,
+				B972FFF325EC61B100A5C343 /* User.swift in Sources */,
 				B972FFC825EC273100A5C343 /* Milestone7-9.swift in Sources */,
 				B972FFB525EB2B5C00A5C343 /* GameView.swift in Sources */,
+				B972FFDA25EC4D3700A5C343 /* AddActivityView.swift in Sources */,
+				B972FFD525EC39A300A5C343 /* Activity.swift in Sources */,
+				B972FFF925EC65C300A5C343 /* URLExtension.swift in Sources */,
+				B972FFE525EC590000A5C343 /* ActivityDetail.swift in Sources */,
 				B972FF6A25E9C3FA00A5C343 /* MilestoneProjectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
