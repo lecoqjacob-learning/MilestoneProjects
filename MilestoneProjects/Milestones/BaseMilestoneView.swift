@@ -14,9 +14,7 @@ protocol MilestoneView: Identifiable, View {
 
 struct BaseMilestoneView<Destination: MilestoneView>: View {
     var milestoneView: Destination
-//    var t = milestoneView(infoButton: Button("Project Details"){
-//        
-//    })
+
     @State private var showingProjectDetails = false
     
     var body: some View {
@@ -24,11 +22,11 @@ struct BaseMilestoneView<Destination: MilestoneView>: View {
             milestoneView
         }
         .navigationBarTitle(milestoneView.name, displayMode: .inline)
-        .navigationBarItems(trailing: Button(action: {
-            self.showingProjectDetails.toggle()
-        }){
-            Image(systemName: "info.circle")
-        })
+//        .navigationBarItems(trailing: Button(action: {
+//            self.showingProjectDetails.toggle()
+//        }){
+//            Image(systemName: "info.circle")
+//        })
         .alert(isPresented: self.$showingProjectDetails){
             Alert(title: Text(milestoneView.name), message: Text(milestoneView.description), dismissButton: .default(Text("Got it!")))
         }

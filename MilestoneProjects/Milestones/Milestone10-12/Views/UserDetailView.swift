@@ -12,6 +12,18 @@ extension Color {
     static let offWhite = Color(red: 225 / 255, green: 225 / 255, blue: 235 / 255)
 }
 
+struct NavigationLazyView<Content: View>: View {
+    let build: () -> Content
+    
+    init(_ build: @autoclosure @escaping () -> Content) {
+        self.build = build
+    }
+    
+    var body: Content {
+        build()
+    }
+}
+
 struct UserDetailView: View {
     @ObservedObject var vm: UserViewModel
     let user: UserModel
@@ -123,7 +135,7 @@ struct UserDetailView: View {
 
                         LazyVGrid(columns: columns, spacing: 20) {
                             ForEach(user.friends) { friend in
-                                NavigationLink(destination: UserDetailView(vm: vm, user: vm.findUser(friend.id)!)) {
+                                NavigationLink(destination: NavigationLazyView(UserDetailView(vm: vm, user: vm.findUser(friend.id)!))) {
                                     Text(friend.name)
                                         .font(.system(size: 20))
                                         .foregroundColor(.white)
@@ -143,9 +155,6 @@ struct UserDetailView: View {
             Spacer()
         }
         .background(LinearGradient(gradient: gradient, startPoint: .top, endPoint: .bottom))
-        .onAppear {
-            print(user.friends)
-        }
     }
 }
 

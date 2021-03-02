@@ -28,7 +28,7 @@ struct ContentView: View {
         MilestoneExample(Milestone7_9()),
         MilestoneExample(Milestone10_12())
     ]
-
+    
     var body: some View {
         NavigationView {
             List(MILESTONE_VIEWS, id: \.id) { example in

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B923872125EED14E00869EE6 /* CoreData2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B923871F25EED14E00869EE6 /* CoreData2.xcdatamodeld */; };
+		B969D3BE25EEB91300EB32ED /* CDUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B969D3BC25EEB91300EB32ED /* CDUser+CoreDataClass.swift */; };
+		B969D3BF25EEB91300EB32ED /* CDUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B969D3BD25EEB91300EB32ED /* CDUser+CoreDataProperties.swift */; };
 		B972000525EC666100A5C343 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972000425EC666100A5C343 /* UserService.swift */; };
 		B972FF6A25E9C3FA00A5C343 /* MilestoneProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF6925E9C3FA00A5C343 /* MilestoneProjectsApp.swift */; };
 		B972FF6C25E9C3FA00A5C343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF6B25E9C3FA00A5C343 /* ContentView.swift */; };
@@ -28,8 +31,14 @@
 		B972FFEB25EC617E00A5C343 /* Milestone10-12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */; };
 		B972FFF325EC61B100A5C343 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFF225EC61B100A5C343 /* User.swift */; };
 		B972FFF925EC65C300A5C343 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFF825EC65C300A5C343 /* URLExtension.swift */; };
+		B982D17925EEC7020062482F /* CDTag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982D17725EEC7020062482F /* CDTag+CoreDataClass.swift */; };
+		B982D17A25EEC7020062482F /* CDTag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982D17825EEC7020062482F /* CDTag+CoreDataProperties.swift */; };
+		B9BA504425EDD41E003A97AD /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA504325EDD41E003A97AD /* Persistance.swift */; };
+		B9BA504925EDD634003A97AD /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA504825EDD634003A97AD /* UserListView.swift */; };
 		B9EE04EB25EC6B3100D8E246 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE04EA25EC6B3100D8E246 /* UserViewModel.swift */; };
 		B9EE04F125EC7A4700D8E246 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE04F025EC7A4700D8E246 /* UserDetailView.swift */; };
+		B9F0931D25EDD02000DC3F52 /* CDFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0931925EDD02000DC3F52 /* CDFriend+CoreDataClass.swift */; };
+		B9F0931E25EDD02000DC3F52 /* CDFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F0931A25EDD02000DC3F52 /* CDFriend+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B923872025EED14E00869EE6 /* CoreData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData2.xcdatamodel; sourceTree = "<group>"; };
+		B969D3BC25EEB91300EB32ED /* CDUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B969D3BD25EEB91300EB32ED /* CDUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B972000425EC666100A5C343 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		B972FF6625E9C3FA00A5C343 /* MilestoneProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilestoneProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B972FF6925E9C3FA00A5C343 /* MilestoneProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneProjectsApp.swift; sourceTree = "<group>"; };
@@ -77,8 +89,14 @@
 		B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Milestone10-12.swift"; sourceTree = "<group>"; };
 		B972FFF225EC61B100A5C343 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B972FFF825EC65C300A5C343 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		B982D17725EEC7020062482F /* CDTag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B982D17825EEC7020062482F /* CDTag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTag+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B9BA504325EDD41E003A97AD /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		B9BA504825EDD634003A97AD /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		B9EE04EA25EC6B3100D8E246 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		B9EE04F025EC7A4700D8E246 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		B9F0931925EDD02000DC3F52 /* CDFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B9F0931A25EDD02000DC3F52 /* CDFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +135,14 @@
 		B972000925EC678200A5C343 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B982D17725EEC7020062482F /* CDTag+CoreDataClass.swift */,
+				B982D17825EEC7020062482F /* CDTag+CoreDataProperties.swift */,
+				B969D3BC25EEB91300EB32ED /* CDUser+CoreDataClass.swift */,
+				B969D3BD25EEB91300EB32ED /* CDUser+CoreDataProperties.swift */,
+				B9F0931925EDD02000DC3F52 /* CDFriend+CoreDataClass.swift */,
+				B9F0931A25EDD02000DC3F52 /* CDFriend+CoreDataProperties.swift */,
 				B972FFF225EC61B100A5C343 /* User.swift */,
+				B923871F25EED14E00869EE6 /* CoreData2.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -145,11 +170,12 @@
 		B972FF6825E9C3FA00A5C343 /* MilestoneProjects */ = {
 			isa = PBXGroup;
 			children = (
-				B972FF9C25E9E41A00A5C343 /* Milestones */,
+				B9BA504325EDD41E003A97AD /* Persistance.swift */,
 				B972FF6925E9C3FA00A5C343 /* MilestoneProjectsApp.swift */,
 				B972FF6B25E9C3FA00A5C343 /* ContentView.swift */,
-				B972FF6D25E9C3FC00A5C343 /* Assets.xcassets */,
 				B972FF7225E9C3FC00A5C343 /* Info.plist */,
+				B972FF6D25E9C3FC00A5C343 /* Assets.xcassets */,
+				B972FF9C25E9E41A00A5C343 /* Milestones */,
 				B972FF6F25E9C3FC00A5C343 /* Preview Content */,
 			);
 			path = MilestoneProjects;
@@ -227,12 +253,12 @@
 		B972FFE925EC615F00A5C343 /* Milestone10-12 */ = {
 			isa = PBXGroup;
 			children = (
+				B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */,
 				B9EE04EF25EC7A3B00D8E246 /* Views */,
 				B9EE04E925EC6B1B00D8E246 /* ViewModels */,
 				B972000925EC678200A5C343 /* Models */,
 				B972000025EC664200A5C343 /* Services */,
 				B972FFF725EC65A400A5C343 /* Extensions */,
-				B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */,
 			);
 			path = "Milestone10-12";
 			sourceTree = "<group>";
@@ -257,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				B9EE04F025EC7A4700D8E246 /* UserDetailView.swift */,
+				B9BA504825EDD634003A97AD /* UserListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -390,25 +417,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F0931D25EDD02000DC3F52 /* CDFriend+CoreDataClass.swift in Sources */,
 				B9EE04F125EC7A4700D8E246 /* UserDetailView.swift in Sources */,
+				B9F0931E25EDD02000DC3F52 /* CDFriend+CoreDataProperties.swift in Sources */,
 				B972FFEB25EC617E00A5C343 /* Milestone10-12.swift in Sources */,
 				B972FFAB25EAC69200A5C343 /* BaseMilestoneView.swift in Sources */,
 				B972FFD025EC274000A5C343 /* Game.swift in Sources */,
 				B972FFC225EC0E0500A5C343 /* Question.swift in Sources */,
+				B969D3BE25EEB91300EB32ED /* CDUser+CoreDataClass.swift in Sources */,
 				B972FFBA25EB2B6300A5C343 /* SettingsView.swift in Sources */,
 				B972FF6C25E9C3FA00A5C343 /* ContentView.swift in Sources */,
 				B972000525EC666100A5C343 /* UserService.swift in Sources */,
+				B982D17A25EEC7020062482F /* CDTag+CoreDataProperties.swift in Sources */,
 				B9EE04EB25EC6B3100D8E246 /* UserViewModel.swift in Sources */,
+				B9BA504425EDD41E003A97AD /* Persistance.swift in Sources */,
 				B972FFB025EACA2000A5C343 /* Milestone4-6.swift in Sources */,
+				B923872125EED14E00869EE6 /* CoreData2.xcdatamodeld in Sources */,
+				B982D17925EEC7020062482F /* CDTag+CoreDataClass.swift in Sources */,
 				B972FF9F25E9E43400A5C343 /* Milestone1-3.swift in Sources */,
 				B972FFF325EC61B100A5C343 /* User.swift in Sources */,
 				B972FFC825EC273100A5C343 /* Milestone7-9.swift in Sources */,
 				B972FFB525EB2B5C00A5C343 /* GameView.swift in Sources */,
+				B969D3BF25EEB91300EB32ED /* CDUser+CoreDataProperties.swift in Sources */,
 				B972FFDA25EC4D3700A5C343 /* AddActivityView.swift in Sources */,
 				B972FFD525EC39A300A5C343 /* Activity.swift in Sources */,
 				B972FFF925EC65C300A5C343 /* URLExtension.swift in Sources */,
 				B972FFE525EC590000A5C343 /* ActivityDetail.swift in Sources */,
 				B972FF6A25E9C3FA00A5C343 /* MilestoneProjectsApp.swift in Sources */,
+				B9BA504925EDD634003A97AD /* UserListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,6 +764,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B923871F25EED14E00869EE6 /* CoreData2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B923872025EED14E00869EE6 /* CoreData2.xcdatamodel */,
+			);
+			currentVersion = B923872025EED14E00869EE6 /* CoreData2.xcdatamodel */;
+			path = CoreData2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B972FF5E25E9C3FA00A5C343 /* Project object */;
 }

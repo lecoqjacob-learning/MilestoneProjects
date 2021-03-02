@@ -8,12 +8,19 @@
 import Foundation
 import SwiftUI
 
-struct FriendModel: Codable, Identifiable {
+struct FriendModel: Decodable, Identifiable, Hashable {
     var id: UUID
     var name: String
 }
 
-struct UserModel: Codable, Identifiable {
+extension FriendModel {
+    init(friend: CDFriend) {
+        self.id = friend.wrappedId
+        self.name = friend.wrappedName
+    }
+}
+
+struct UserModel: Decodable, Identifiable {
     var id: UUID
     var isActive: Bool
     var name: String
@@ -28,11 +35,25 @@ struct UserModel: Codable, Identifiable {
 }
 
 extension UserModel {
+    init(user: CDUser) {
+        self.id = user.wrappedId
+        self.isActive = user.isActive
+        self.name = user.wrappedName
+        self.age = user.wrappedAge
+        self.company = user.wrappedCompany
+        self.email = user.wrappedEmail
+        self.address = user.wrappedAddress
+        self.about = user.wrappedAbout
+        self.registered = user.wrappedRegistered
+        self.tags = user.tagsArray.map{ $0.wrappedName }
+        self.friends = user.friendsArray.map { FriendModel(friend: $0) }
+    }
+
     func getAddress() -> String {
         let addressComponents = self.address.components(separatedBy: ",")
         return "\(addressComponents[1]),\(addressComponents[2])"
     }
-    
+
     static var example: UserModel {
         return UserModel(id: UUID(), isActive: false, name: "Dave", age: 22, company: "Imkan", email: "alfordrodriguez@imkan.com",
                          address: "907 Nelson Street, Cotopaxi, South Dakota, 5913",
