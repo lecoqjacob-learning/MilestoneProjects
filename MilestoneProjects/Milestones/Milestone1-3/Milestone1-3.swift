@@ -76,50 +76,49 @@ struct Milestone1_3: MilestoneView {
     @State private var gameChoice = Choice.rock
     
     var body: some View {
-        VStack {
-            Text("Current Score: \(self.score)")
-                .font(.largeTitle)
-                .padding()
-            Spacer()
+        BaseMilestoneView(name, description){
+            VStack {
+                Text("App chose...")
+                    .font(.title)
+                    + Text(gameChoice.localizedName)
+                    .font(.title)
+                    .bold()
             
-            Text("App chose...")
-                .font(.title)
-                + Text(gameChoice.localizedName)
-                .font(.title)
-                .bold()
-            
-            Text("Selection must...")
-                .font(.title)
-                + Text(shouldWin ? "WIN" : "LOSE")
-                .font(.title)
-                .bold()
-            
-            Spacer()
-            
-            ForEach(Choice.allCases, id: \.self) { choice in
-                Button(action: {
-                    withAnimation {
-                        let outcome = choice.beats(otherSign: gameChoice)
+                Text("Selection must...")
+                    .font(.title)
+                    + Text(shouldWin ? "WIN" : "LOSE")
+                    .font(.title)
+                    .bold()
+                
+                Text("Current Score: \(self.score)")
+                    .font(.largeTitle)
+                    .padding()
+                        
+                ForEach(Choice.allCases, id: \.self) { choice in
+                    Button(action: {
+                        withAnimation {
+                            let outcome = choice.beats(otherSign: gameChoice)
                     
-                        switch (outcome, shouldWin) {
-                        case (.win, true):
-                            self.score += 1
-                        case (.lose, false):
-                            self.score += 1
-                        default: break
+                            switch (outcome, shouldWin) {
+                            case (.win, true):
+                                self.score += 1
+                            case (.lose, false):
+                                self.score += 1
+                            default: break
+                            }
+                    
+                            self.generateMove()
                         }
-                    
-                        self.generateMove()
+                    }) {
+                        HStack {
+                            Text(choice.emoji)
+                            Text(choice.localizedName)
+                                .fontWeight(.semibold)
+                                .font(.title)
+                        }
                     }
-                }) {
-                    HStack {
-                        Text(choice.emoji)
-                        Text(choice.localizedName)
-                            .fontWeight(.semibold)
-                            .font(.title)
-                    }
+                    .buttonStyle(FilledButton())
                 }
-                .buttonStyle(FilledButton())
             }
         }
         .frame(maxWidth: .infinity, alignment: .center)

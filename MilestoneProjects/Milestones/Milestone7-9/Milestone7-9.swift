@@ -54,7 +54,7 @@ struct Milestone7_9: MilestoneView {
     @ObservedObject var container = ActivityContainer()
 
     var body: some View {
-        NavigationView {
+        BaseMilestoneView(name, description) {
             List {
                 ForEach(container.activities.indexed(), id: \.1.id) { index, activity in
                     NavigationLink(destination: ActivityDetail(activity: $container.activities[index])){
@@ -68,17 +68,17 @@ struct Milestone7_9: MilestoneView {
                 }
                 .onDelete(perform: removeItems)
             }
-            .navigationBarTitle("Activity Tracker")
-            .navigationBarItems(trailing:
-                Button(action: {
-                    self.showingAddActivity.toggle()
-                }) {
-                    Image(systemName: "plus")
-                }
-            )
-            .sheet(isPresented: $showingAddActivity) {
-                AddActivityView(self.container)
+        }
+        .navigationBarTitle("Activity Tracker")
+        .navigationBarItems(trailing:
+            Button(action: {
+                self.showingAddActivity.toggle()
+            }) {
+                Image(systemName: "plus")
             }
+        )
+        .sheet(isPresented: $showingAddActivity) {
+            AddActivityView(self.container)
         }
     }
     

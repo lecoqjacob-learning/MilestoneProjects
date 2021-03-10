@@ -21,7 +21,7 @@ struct Milestone4_6: MilestoneView {
     @ObservedObject private var gameState = KidsGame()
 
     var body: some View {
-        NavigationView {
+        BaseMilestoneView(name, description) {
             Group {
                 if isGameView() {
                     GameView(gameState)
@@ -29,27 +29,27 @@ struct Milestone4_6: MilestoneView {
                     SettingsView(gameState)
                 }
             }
-            .navigationBarItems(trailing:
-                HStack {
-                    Button(isGameView() ? "Settings" : "Play") {
-                        withAnimation {
-                            self.switchView()
-                        }
+        }
+        .navigationBarItems(trailing:
+            HStack {
+                Button(isGameView() ? "Settings" : "Play") {
+                    withAnimation {
+                        self.switchView()
                     }
                 }
-            )
-        }
+            }
+        )
     }
-    
-    private func switchView(){
-        if (isGameView()){
-            self.gameState.state = KidsGame.GameState.inSettings
+
+    private func switchView() {
+        if isGameView() {
+            gameState.state = KidsGame.GameState.inSettings
         } else {
-            self.gameState.state = KidsGame.GameState.inPlay
+            gameState.state = KidsGame.GameState.inPlay
         }
     }
-    
-    private func isGameView () -> Bool {
+
+    private func isGameView() -> Bool {
         return gameState.state == KidsGame.GameState.inPlay || gameState.state == KidsGame.GameState.complete
     }
 }

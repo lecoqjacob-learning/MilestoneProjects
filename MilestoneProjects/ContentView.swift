@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    struct MilestoneExample: MilestoneView {
+    struct MilestoneExample: View {
         var id: UUID
         var name: String
         var description: String
@@ -21,18 +21,20 @@ struct ContentView: View {
             self.body = AnyView(milestone)
         }
     }
-    
+
     let MILESTONE_VIEWS = [
         MilestoneExample(Milestone1_3()),
         MilestoneExample(Milestone4_6()),
         MilestoneExample(Milestone7_9()),
-        MilestoneExample(Milestone10_12())
+        MilestoneExample(Milestone10_12()),
+        MilestoneExample(Milestone13_15()),
+        MilestoneExample(Milestone16_18())
     ]
     
     var body: some View {
         NavigationView {
             List(MILESTONE_VIEWS, id: \.id) { example in
-                NavigationLink(destination: BaseMilestoneView(milestoneView: example)) {
+                NavigationLink(destination: example) {
                     Text(example.name)
                 }
             }

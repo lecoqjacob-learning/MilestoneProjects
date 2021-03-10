@@ -12,23 +12,45 @@ protocol MilestoneView: Identifiable, View {
     var description: String { get }
 }
 
-struct BaseMilestoneView<Destination: MilestoneView>: View {
-    var milestoneView: Destination
+struct DescriptionView: View {
+    var name: String
+    var description: String
 
-    @State private var showingProjectDetails = false
-    
+    init(_ name: String, _ description: String) {
+        self.name = name
+        self.description = description
+    }
+
     var body: some View {
         VStack {
-            milestoneView
+            Text(name).font(.system(size: 30)).bold().padding()
+            Text(description).font(.system(size: 20)).padding()
         }
-        .navigationBarTitle(milestoneView.name, displayMode: .inline)
-//        .navigationBarItems(trailing: Button(action: {
-//            self.showingProjectDetails.toggle()
-//        }){
-//            Image(systemName: "info.circle")
-//        })
-        .alert(isPresented: self.$showingProjectDetails){
-            Alert(title: Text(milestoneView.name), message: Text(milestoneView.description), dismissButton: .default(Text("Got it!")))
+    }
+}
+
+struct BaseMilestoneView<Content: View>: View {
+    let content: Content
+    let name: String
+    let description: String
+    
+    init(_ name: String, _ description: String, @ViewBuilder content: () -> Content) {
+        self.content = content()
+        self.name = name
+        self.description = description
+    }
+    
+    var body: some View {
+        TabView {
+            self.content
+            .tabItem {
+                Label(name, systemImage: "apps.iphone")
+            }
+
+            DescriptionView(name, description)
+                .tabItem {
+                    Label("Project Description", systemImage: "apps.iphone")
+                }
         }
     }
 }

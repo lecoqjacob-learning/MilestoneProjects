@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B923872125EED14E00869EE6 /* CoreData2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B923871F25EED14E00869EE6 /* CoreData2.xcdatamodeld */; };
+		B923872A25EF1B0900869EE6 /* Milestone13-15.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923872925EF1B0900869EE6 /* Milestone13-15.swift */; };
+		B923873225EFEE4200869EE6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923873125EFEE4200869EE6 /* ImagePicker.swift */; };
+		B923873825EFF47E00869EE6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923873725EFF47E00869EE6 /* Person.swift */; };
+		B923874525EFF9FA00869EE6 /* Milestone13_15.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B923874325EFF9FA00869EE6 /* Milestone13_15.xcdatamodeld */; };
+		B923874B25EFFA5100869EE6 /* CoreDataPerson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923874925EFFA5100869EE6 /* CoreDataPerson+CoreDataClass.swift */; };
+		B923874C25EFFA5100869EE6 /* CoreDataPerson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923874A25EFFA5100869EE6 /* CoreDataPerson+CoreDataProperties.swift */; };
+		B923875425EFFB4D00869EE6 /* CoreDataPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923875325EFFB4D00869EE6 /* CoreDataPersons.swift */; };
+		B923876225F0002B00869EE6 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923876125F0002B00869EE6 /* AddContactView.swift */; };
+		B923876825F000F600869EE6 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923876725F000F600869EE6 /* KeyboardResponder.swift */; };
+		B923876D25F0359E00869EE6 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923876C25F0359E00869EE6 /* PersonDetailView.swift */; };
+		B923877325F0374100869EE6 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923877225F0374100869EE6 /* ImageUtils.swift */; };
+		B923878025F046B200869EE6 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923877F25F046B200869EE6 /* LocationFetcher.swift */; };
+		B923878525F04FFD00869EE6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923878425F04FFD00869EE6 /* MapView.swift */; };
 		B969D3BE25EEB91300EB32ED /* CDUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B969D3BC25EEB91300EB32ED /* CDUser+CoreDataClass.swift */; };
 		B969D3BF25EEB91300EB32ED /* CDUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B969D3BD25EEB91300EB32ED /* CDUser+CoreDataProperties.swift */; };
 		B972000525EC666100A5C343 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972000425EC666100A5C343 /* UserService.swift */; };
@@ -31,6 +44,7 @@
 		B972FFEB25EC617E00A5C343 /* Milestone10-12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */; };
 		B972FFF325EC61B100A5C343 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFF225EC61B100A5C343 /* User.swift */; };
 		B972FFF925EC65C300A5C343 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FFF825EC65C300A5C343 /* URLExtension.swift */; };
+		B9763A6D25F2F3400031FE8F /* Milestone16-18.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9763A6C25F2F3400031FE8F /* Milestone16-18.swift */; };
 		B982D17925EEC7020062482F /* CDTag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982D17725EEC7020062482F /* CDTag+CoreDataClass.swift */; };
 		B982D17A25EEC7020062482F /* CDTag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982D17825EEC7020062482F /* CDTag+CoreDataProperties.swift */; };
 		B9BA504425EDD41E003A97AD /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BA504325EDD41E003A97AD /* Persistance.swift */; };
@@ -60,6 +74,19 @@
 
 /* Begin PBXFileReference section */
 		B923872025EED14E00869EE6 /* CoreData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData2.xcdatamodel; sourceTree = "<group>"; };
+		B923872925EF1B0900869EE6 /* Milestone13-15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Milestone13-15.swift"; sourceTree = "<group>"; };
+		B923873125EFEE4200869EE6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B923873725EFF47E00869EE6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B923874425EFF9FA00869EE6 /* Milestone13_15.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Milestone13_15.xcdatamodel; sourceTree = "<group>"; };
+		B923874925EFFA5100869EE6 /* CoreDataPerson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataPerson+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		B923874A25EFFA5100869EE6 /* CoreDataPerson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataPerson+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		B923875325EFFB4D00869EE6 /* CoreDataPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPersons.swift; sourceTree = "<group>"; };
+		B923876125F0002B00869EE6 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		B923876725F000F600869EE6 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		B923876C25F0359E00869EE6 /* PersonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
+		B923877225F0374100869EE6 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		B923877F25F046B200869EE6 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		B923878425F04FFD00869EE6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B969D3BC25EEB91300EB32ED /* CDUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B969D3BD25EEB91300EB32ED /* CDUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B972000425EC666100A5C343 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -89,6 +116,7 @@
 		B972FFEA25EC617E00A5C343 /* Milestone10-12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Milestone10-12.swift"; sourceTree = "<group>"; };
 		B972FFF225EC61B100A5C343 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B972FFF825EC65C300A5C343 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		B9763A6C25F2F3400031FE8F /* Milestone16-18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Milestone16-18.swift"; sourceTree = "<group>"; };
 		B982D17725EEC7020062482F /* CDTag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTag+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B982D17825EEC7020062482F /* CDTag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDTag+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B9BA504325EDD41E003A97AD /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
@@ -124,6 +152,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B923872825EF1AE700869EE6 /* Milestone13-15 */ = {
+			isa = PBXGroup;
+			children = (
+				B923877D25F0469100869EE6 /* Utils */,
+				B923875825EFFCF100869EE6 /* Views */,
+				B923873625EFF46100869EE6 /* Models */,
+			);
+			path = "Milestone13-15";
+			sourceTree = "<group>";
+		};
+		B923873625EFF46100869EE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B923873F25EFF48700869EE6 /* CoreData */,
+				B923877125F0373300869EE6 /* Utils */,
+				B923873725EFF47E00869EE6 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B923873F25EFF48700869EE6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B923874925EFFA5100869EE6 /* CoreDataPerson+CoreDataClass.swift */,
+				B923874A25EFFA5100869EE6 /* CoreDataPerson+CoreDataProperties.swift */,
+				B923874325EFF9FA00869EE6 /* Milestone13_15.xcdatamodeld */,
+				B923875325EFFB4D00869EE6 /* CoreDataPersons.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B923875825EFFCF100869EE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B923876625F000E600869EE6 /* Utils */,
+				B923876125F0002B00869EE6 /* AddContactView.swift */,
+				B923876C25F0359E00869EE6 /* PersonDetailView.swift */,
+				B923878425F04FFD00869EE6 /* MapView.swift */,
+				B923872925EF1B0900869EE6 /* Milestone13-15.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B923876625F000E600869EE6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B923876725F000F600869EE6 /* KeyboardResponder.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B923877125F0373300869EE6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B923877225F0374100869EE6 /* ImageUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B923877D25F0469100869EE6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B923873125EFEE4200869EE6 /* ImagePicker.swift */,
+				B923877F25F046B200869EE6 /* LocationFetcher.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		B972000025EC664200A5C343 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +306,8 @@
 		B972FF9C25E9E41A00A5C343 /* Milestones */ = {
 			isa = PBXGroup;
 			children = (
+				B9763A6825F2F3330031FE8F /* Milestone16-18 */,
+				B923872825EF1AE700869EE6 /* Milestone13-15 */,
 				B972FFE925EC615F00A5C343 /* Milestone10-12 */,
 				B972FFC625EC271200A5C343 /* Milestone7-9 */,
 				B972FFA625EAC59900A5C343 /* Milestone4-6 */,
@@ -269,6 +367,14 @@
 				B972FFF825EC65C300A5C343 /* URLExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B9763A6825F2F3330031FE8F /* Milestone16-18 */ = {
+			isa = PBXGroup;
+			children = (
+				B9763A6C25F2F3400031FE8F /* Milestone16-18.swift */,
+			);
+			path = "Milestone16-18";
 			sourceTree = "<group>";
 		};
 		B9EE04E925EC6B1B00D8E246 /* ViewModels */ = {
@@ -418,8 +524,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F0931D25EDD02000DC3F52 /* CDFriend+CoreDataClass.swift in Sources */,
+				B923874C25EFFA5100869EE6 /* CoreDataPerson+CoreDataProperties.swift in Sources */,
+				B923878025F046B200869EE6 /* LocationFetcher.swift in Sources */,
 				B9EE04F125EC7A4700D8E246 /* UserDetailView.swift in Sources */,
+				B923872A25EF1B0900869EE6 /* Milestone13-15.swift in Sources */,
 				B9F0931E25EDD02000DC3F52 /* CDFriend+CoreDataProperties.swift in Sources */,
+				B923877325F0374100869EE6 /* ImageUtils.swift in Sources */,
 				B972FFEB25EC617E00A5C343 /* Milestone10-12.swift in Sources */,
 				B972FFAB25EAC69200A5C343 /* BaseMilestoneView.swift in Sources */,
 				B972FFD025EC274000A5C343 /* Game.swift in Sources */,
@@ -427,22 +537,32 @@
 				B969D3BE25EEB91300EB32ED /* CDUser+CoreDataClass.swift in Sources */,
 				B972FFBA25EB2B6300A5C343 /* SettingsView.swift in Sources */,
 				B972FF6C25E9C3FA00A5C343 /* ContentView.swift in Sources */,
+				B923873825EFF47E00869EE6 /* Person.swift in Sources */,
+				B923874525EFF9FA00869EE6 /* Milestone13_15.xcdatamodeld in Sources */,
 				B972000525EC666100A5C343 /* UserService.swift in Sources */,
+				B923876225F0002B00869EE6 /* AddContactView.swift in Sources */,
+				B923878525F04FFD00869EE6 /* MapView.swift in Sources */,
 				B982D17A25EEC7020062482F /* CDTag+CoreDataProperties.swift in Sources */,
 				B9EE04EB25EC6B3100D8E246 /* UserViewModel.swift in Sources */,
 				B9BA504425EDD41E003A97AD /* Persistance.swift in Sources */,
 				B972FFB025EACA2000A5C343 /* Milestone4-6.swift in Sources */,
 				B923872125EED14E00869EE6 /* CoreData2.xcdatamodeld in Sources */,
+				B923874B25EFFA5100869EE6 /* CoreDataPerson+CoreDataClass.swift in Sources */,
 				B982D17925EEC7020062482F /* CDTag+CoreDataClass.swift in Sources */,
 				B972FF9F25E9E43400A5C343 /* Milestone1-3.swift in Sources */,
+				B923876D25F0359E00869EE6 /* PersonDetailView.swift in Sources */,
 				B972FFF325EC61B100A5C343 /* User.swift in Sources */,
 				B972FFC825EC273100A5C343 /* Milestone7-9.swift in Sources */,
 				B972FFB525EB2B5C00A5C343 /* GameView.swift in Sources */,
 				B969D3BF25EEB91300EB32ED /* CDUser+CoreDataProperties.swift in Sources */,
 				B972FFDA25EC4D3700A5C343 /* AddActivityView.swift in Sources */,
+				B923875425EFFB4D00869EE6 /* CoreDataPersons.swift in Sources */,
 				B972FFD525EC39A300A5C343 /* Activity.swift in Sources */,
+				B923876825F000F600869EE6 /* KeyboardResponder.swift in Sources */,
 				B972FFF925EC65C300A5C343 /* URLExtension.swift in Sources */,
 				B972FFE525EC590000A5C343 /* ActivityDetail.swift in Sources */,
+				B9763A6D25F2F3400031FE8F /* Milestone16-18.swift in Sources */,
+				B923873225EFEE4200869EE6 /* ImagePicker.swift in Sources */,
 				B972FF6A25E9C3FA00A5C343 /* MilestoneProjectsApp.swift in Sources */,
 				B9BA504925EDD634003A97AD /* UserListView.swift in Sources */,
 			);
@@ -773,6 +893,16 @@
 			);
 			currentVersion = B923872025EED14E00869EE6 /* CoreData2.xcdatamodel */;
 			path = CoreData2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B923874325EFF9FA00869EE6 /* Milestone13_15.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B923874425EFF9FA00869EE6 /* Milestone13_15.xcdatamodel */,
+			);
+			currentVersion = B923874425EFF9FA00869EE6 /* Milestone13_15.xcdatamodel */;
+			path = Milestone13_15.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

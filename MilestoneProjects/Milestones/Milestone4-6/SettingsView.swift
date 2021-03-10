@@ -117,7 +117,6 @@ struct SettingsView: View {
             }.fixedSize(horizontal: false, vertical: true)
         }
         .transition(.customTransition)
-//        .onAppear(perform: test)
     }
 
     private func setState() {
